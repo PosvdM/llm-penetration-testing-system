@@ -1,0 +1,26 @@
+id: local-http-fingerprint
+
+info:
+  name: Local HTTP Fingerprint
+  author: codex
+  severity: info
+  description: Minimal local template for prototype HTTP fingerprinting and demo scan flow.
+
+http:
+  - method: GET
+    path:
+      - "{{BaseURL}}"
+    matchers-condition: or
+    matchers:
+      - type: word
+        part: header
+        words:
+          - "Apache"
+          - "Tomcat"
+          - "nginx"
+      - type: word
+        part: body
+        words:
+          - "Apache Tomcat"
+          - "Welcome"
+          - "Struts"
