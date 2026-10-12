@@ -1,5 +1,7 @@
 # LLM Penetration Testing System Project Plan
 
+> 历史规划，包含尚未实现的设计，不代表当前功能。当前说明见[项目首页](../../README.md)与[架构文档](../architecture/OVERVIEW.md)。
+
 ## 1. Project Positioning
 
 This project aims to build an automated penetration testing system driven by large language models for authorized lab, teaching, research, and competition scenarios.
