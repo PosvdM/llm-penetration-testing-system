@@ -1,5 +1,7 @@
 # Development Environment Audit
 
+> 历史个人环境记录，不是当前安装要求。请使用[安装与配置](../setup/GETTING_STARTED.md)。
+
 ## Prepared On
 
 - Date: 2026-04-14

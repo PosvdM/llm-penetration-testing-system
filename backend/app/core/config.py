@@ -12,7 +12,7 @@ class Settings(BaseSettings):
     api_port: int = 8000
     openai_api_key: str = ""
     openai_model: str = "gpt-5.4"
-    openai_base_url: str = "https://88996api.cloud/v1"
+    openai_base_url: str = "https://api.openai.com/v1"
     openai_wire_api: str = "chat_completions"
     llm_reasoning_effort: str = "low"
 
